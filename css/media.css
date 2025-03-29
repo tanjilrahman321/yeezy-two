@@ -1,0 +1,254 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+  /* header start  */
+  .cc-nav-right-div {
+    display: none;
+  }
+
+  .main-logo-wrapper {
+    font-size: 28px;
+    line-height: 20px;
+  }
+
+
+  .main-logo-wrapper span {
+    font-weight: 400;
+    font-size: 13.5px;
+  }
+
+  /* header end  */
+
+  /* banner start  */
+  .banner .main-title-one {
+    font-size: 40px;
+  }
+
+  .banner .main-title-two {
+    font-size: 40px;
+  }
+
+  .card-gif {
+    margin-top: -00px;
+    margin-bottom: -00px;
+    width: 200px;
+  }
+
+  /* banner end  */
+
+
+  /* logos part start */
+  .logos-sec {
+    padding: 30px 0;
+  }
+
+  .logos-slide {
+    animation: 5s slide infinite linear;
+  }
+
+  .logos-slide h2 {
+    font-size: 50px;
+  }
+
+  /* logos part end */
+  /* Where use start  */
+
+  .single-slider {
+    margin: 0 5px;
+    padding: 20px;
+    border: 3px solid #82817a;
+  }
+
+  .single-slider img {
+    width: 150px;
+    height: 160px;
+  }
+
+  .single-slider h2 {
+    font-size: 20px;
+  }
+
+  .single-slider h3 {
+    font-size: 14px;
+  }
+
+  /* Where use end  */
+
+  /* step start  */
+
+  .step h1 {
+    margin-top: 30px;
+    font-size: 30px;
+  }
+
+  .step img {
+    width: 100%;
+  }
+
+  /* step end  */
+
+  /* faq start  */
+  .accordion-button {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  /* faq end  */
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  /* header start  */
+  .main-logo-wrapper {
+    font-size: 24px;
+    line-height: 20px;
+  }
+
+
+  .main-logo-wrapper span {
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  /* header end  */
+
+  /* banner start  */
+  .banner .main-title-one {
+    font-size: 75px;
+  }
+
+  .banner .main-title-two {
+    font-size: 75px;
+  }
+
+  .card-gif {
+    margin-top: -00px;
+    margin-bottom: -0px;
+    width: 400px;
+  }
+
+  /* banner end  */
+
+  /* Where use start  */
+
+  .single-slider {
+    margin: 0 5px;
+    padding: 20px;
+    border: 3px solid #82817a;
+  }
+
+  .single-slider img {
+    width: 200px;
+    height: 180px;
+  }
+
+  .single-slider h2 {
+    font-size: 30px;
+  }
+
+  .single-slider h3 {
+    font-size: 20px;
+  }
+
+  /* Where use end  */
+  /* step start  */
+  .step img {
+    width: 100%;
+  }
+
+  /* step end  */
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  /* banner start  */
+  .banner .main-title-one {
+    font-size: 100px;
+  }
+
+  .banner .main-title-two {
+    font-size: 100px;
+  }
+
+  .card-gif {
+    margin-top: -10px;
+    margin-bottom: -10px;
+    width: 500px;
+  }
+
+  /* banner end  */
+
+  /* Where use start  */
+
+  .single-slider {
+    margin: 0 5px;
+    padding: 20px;
+    border: 3px solid #82817a;
+  }
+
+  .single-slider img {
+    width: 150px;
+    height: 160px;
+  }
+
+  .single-slider h2 {
+    font-size: 20px;
+  }
+
+  .single-slider h3 {
+    font-size: 14px;
+  }
+
+  /* Where use end  */
+
+  /* step start  */
+
+
+  .step h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .step-desc h2 {
+    font-size: 20px;
+  }
+
+  .step-desc p {
+    font-size: 16px;
+  }
+
+  .step img {
+    width: 100%;
+  }
+
+  /* step end  */
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  /* banner start  */
+  .banner .main-title-one {
+    font-size: 135px;
+  }
+
+  .banner .main-title-two {
+    font-size: 135px;
+  }
+
+  .card-gif {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    width: 500px;
+  }
+
+  /* banner end  */
+}
+
+/*X large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+/*XX Large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {}

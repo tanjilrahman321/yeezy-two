@@ -1,0 +1,666 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!--meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+  <!-- Google Font start  -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+    rel="stylesheet">
+
+  <!-- Google Font end  -->
+
+  <link rel="shortcut icon" href="images/fav.ico" type="image/x-icon">
+
+  <!-- Slick Slider Css -->
+  <link rel="stylesheet" href="vendor/slick/css/slick.css">
+  <link rel="stylesheet" href="vendor/slick/css/slick-theme.css">
+
+  <!--CSS Links-->
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+
+  <title>Bank of Yeezy</title>
+</head>
+
+<body>
+
+
+  <!-- hero start  -->
+
+  <main>
+
+    <div class="alert alert-dismissible fade show text-center d-none" role="alert"
+      style="padding: 15px 0; background-color: #2e2e2e; color: #fff;">
+
+      <div class="row justify-content-center align-items-end text-center">
+        <div class="col-md-2 col-sm-3 col-3 text-end">
+          <h2 class="mb-0" style="font-weight: 700; font-size: 16px; color: #fff;">200M YEEZY</h2>
+        </div>
+        <div class="col-xl-4 col-lg-5 col-6">
+          <h2 style="font-weight: 600; font-size: 16px; color: #fff;">Presale Progress</h2>
+          <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar" style="width: 50%; background-color: #535353;"></div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-3 col-3 text-start">
+          <h2 class="mb-0" style="font-weight: 700; font-size: 16px; color: #fff;">200M YEEZY</h2>
+        </div>
+      </div>
+
+      <button type="button" class="btn-close btn-close-white" style="padding: 15px; top: 15px;" data-bs-dismiss="alert"
+        aria-label="Close"></button>
+    </div>
+
+    <!-- header start  -->
+    <header>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-sm-4 col-4 text-start">
+            <a class="hamburger-menu" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+              aria-controls="offcanvasExample">
+              <i class="fa-solid fa-bars"></i>
+            </a>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+              aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header pt-4 pb-0">
+                <div>
+                  <a href="index.html"><img src="images/logo.png" width="150px" alt=""></a>
+                </div>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <div class="useful-link">
+                  <ul class="list-unstyled mb-0">
+                    <li><a href="#">Benefits</a></li>
+                    <li><a href="#">Join YEEZY</a></li>
+                    <li><a href="#">FAQ</a></li>
+                  </ul>
+                  <div>
+                    <a href="#" class="nav-btn">Deposit</a>
+                  </div>
+                </div>
+                <div class="useful-link mt-4">
+                  <h3>COMING SOON</h3>
+                  <ul class="list-unstyled mb-0">
+                    <li><a href="#">Checkings</a></li>
+                    <li><a href="#">Savings</a></li>
+                    <li><a href="#">Home Loan</a></li>
+                    <li><a href="#">Personal Loan</a></li>
+                    <li><a href="#">Auto Loan</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 col-8 text-sm-center text-end">
+            <a href="index.html"><img src="images/logo.png" width="150px" alt=""></a>
+          </div>
+          <div class="col-sm-4 text-end cc-nav-right-div">
+            <div>
+              <a href="#" class="nav-btn">Deposit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end  -->
+
+    <!-- banner start  -->
+
+    <section class="banner text-center">
+      <div class="container">
+        <h2 class="main-title-one"> WELCOME TO</h2>
+        <img class="card-gif" src="images/cardgif.png" alt="">
+        <h2 class="main-title-two"> BANK OF YEEZY </h2>
+
+        <div class="cs-wrapper">
+          <div class="coming-soon">
+            <h2>COMING SOON</h2>
+          </div>
+        </div>
+
+        <div class="access-token">
+          <h2>Early Access Address</h2>
+          <p id="textToCopy">FoAR3THc6jkwANcKNNqphNc7FPfDexK2qpqsrGT4s129 <span onclick="copyText()"><i
+                class="fa-solid fa-copy"></i></span>
+          </p>
+          <script>
+            function copyText() {
+              const text = document.getElementById('textToCopy').innerText;
+              navigator.clipboard.writeText(text).then(() => {
+                alert('Address copied to clipboard!');
+              }).catch(err => {
+                console.error('Failed to copy text: ', err);
+              });
+            }
+          </script>
+        </div>
+
+
+        <div class="text-center py-4">
+          <a href="#faq" class="nav-btn">How to buy</a>
+        </div>
+
+
+        <div class="down-arrow d-flex justify-content-center mt-4">
+          <a href="#faq"><i class="fa-solid fa-chevron-down"></i></a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- banner end -->
+
+
+  </main>
+
+  <!-- hero end  -->
+
+  <!-- logos part start -->
+  <section class="logos-sec">
+    <div class="container">
+      <div class="logos-slide">
+        <h2>$YEEZY</h2>
+        <h2>$YEEZY</h2>
+        <h2>$YEEZY</h2>
+        <h2>$YEEZY</h2>
+        <h2>$YEEZY</h2>
+        <h2>$YEEZY</h2>
+        <h2>$YEEZY</h2>
+        <h2>$YEEZY</h2>
+        <h2>$YEEZY</h2>
+        <h2>$YEEZY</h2>
+        <h2>$YEEZY</h2>
+        <h2>$YEEZY</h2>
+        <h2>$YEEZY</h2>
+        <h2>$YEEZY</h2>
+        <h2>$YEEZY</h2>
+        <h2>$YEEZY</h2>
+        <h2>$YEEZY</h2>
+        <h2>$YEEZY</h2>
+        <h2>$YEEZY</h2>
+        <h2>$YEEZY</h2>
+        <h2>$YEEZY</h2>
+        <h2>$YEEZY</h2>
+        <h2>$YEEZY</h2>
+        <h2>$YEEZY</h2>
+        <h2>$YEEZY</h2>
+        <h2>$YEEZY</h2>
+        <h2>$YEEZY</h2>
+        <h2>$YEEZY</h2>
+        <h2>$YEEZY</h2>
+      </div>
+    </div>
+  </section>
+  <!-- logos part end -->
+
+  <!-- Where use start -->
+  <section class="where-use" id="where-use">
+    <div class="container">
+
+      <h1>WHERE CAN I USE YEEZY?</h1>
+
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <div class="autoplay">
+            <div class="single-slider">
+              <h2>Use $YEEZY with</h2>
+              <img src="images/where-use/use-01.png" alt="">
+              <h3>Purchase at <br> yeezy.com</h3>
+            </div>
+
+            <div class="single-slider">
+              <h2>Spend $YEEZY</h2>
+              <img src="images/where-use/use-02.svg" alt="">
+              <h3>In stores with <br> YEEZYblackcard</h3>
+            </div>
+
+            <div class="single-slider">
+              <h2>Stake & Collect</h2>
+              <img src="images/where-use/use-03.png" alt="">
+              <h3>With <br> YEEZYvalut</h3>
+            </div>
+
+            <div class="single-slider">
+              <h2>Take Loans</h2>
+              <img src="images/where-use/use-04.png" alt="">
+              <h3>From your <br> $YEEZY holdings</h3>
+            </div>
+
+            <div class="single-slider">
+              <h2>Purchase Bully</h2>
+              <img src="images/where-use/use-05.png" alt="">
+              <h3>With <br> $YEEZY</h3>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Where use end -->
+
+  <!-- Features start  -->
+  <section class="feature">
+    <div class="container">
+
+      <div class="row justify-content-center">
+        <div class="col-xl-5 col-lg-6 col-md-6">
+          <div class="single-feature">
+            <h2>SHOP WITH $YEEZY:</h2>
+            <p>Imagine purchasing exclusive items on Yeezy.com using $YEEZY, giving holders priority access to limited
+              drops and collaborations.</p>
+          </div>
+
+          <div class="single-feature">
+            <h2>MUSIC & MEDIA:</h2>
+            <p>Use $YEEZY to buy new album bundles, concert tickets, and digital collectibles directly from the source.
+            </p>
+          </div>
+
+          <div class="single-feature">
+            <h2>YEEZYBLACKCARD:</h2>
+            <p>Spend $YEEZY anywhere with the YEEZY Black Card, bridging crypto and traditional finance seamlessly.</p>
+          </div>
+
+
+        </div>
+        <div class="col-xl-5 col-lg-6 col-md-6">
+
+          <div class="single-feature">
+            <h2>LOANS & CREDIT:</h2>
+            <p>Take out loans backed by your $YEEZY holdings, unlocking liquidity without selling your assets.</p>
+          </div>
+
+          <div class="single-feature">
+            <h2>SUPERIOR STAKING:</h2>
+            <p>Earn higher APY than any traditional bank by staking $YEEZY, letting your money work for you in a
+              decentralized financial ecosystem.</p>
+          </div>
+
+          <div class="mt-4">
+            <a href="#" class="nav-btn">MAKE A DEPOSIT TODAY</a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- Features end  -->
+
+
+  <!-- step start  -->
+  <section class="step">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xl-5 col-lg-7 col-md-7 order-md-0 order-1">
+          <h1>BUY WITH YEEZY PAY</h1>
+
+          <div class="single-step">
+            <div class="step-serial">1</div>
+            <div class="step-desc">
+              <h2>STEP 1:</h2>
+              <p>
+                Download the YEEZYPay App with the link below.
+              </p>
+            </div>
+          </div>
+
+          <div class="single-step">
+            <div class="step-serial">2</div>
+            <div class="step-desc">
+              <h2>STEP 2:</h2>
+              <p>
+                Deposit funds into your account via Debit or Credit Card.
+              </p>
+            </div>
+          </div>
+
+          <div class="single-step">
+            <div class="step-serial">3</div>
+            <div class="step-desc">
+              <h2>STEP 3:</h2>
+              <p>
+                Search for $YEEZY or to be safe, type in our CA address.
+              </p>
+            </div>
+          </div>
+
+          <div class="single-step">
+            <div class="step-serial">4</div>
+            <div class="step-desc">
+              <h2>STEP 4:</h2>
+              <p>
+                Slide to buy and watch your money multiply at the BANKOFYEEZY.
+              </p>
+            </div>
+          </div>
+
+          <div class="row justify-content-sm-around align-items-center">
+            <div class="col-lg-1 col-md-2 col-sm-1 col-2">
+              <div class="download-btn">
+                <a href="#"><i class="fa-brands fa-apple"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-1 col-md-2 col-sm-1 col-2">
+              <div class="download-btn">
+                <a href="#"><i class="fa-brands fa-google-play"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-9 col-md-8 col-sm-9 col-12">
+              <div class="mt-sm-0 mt-3">
+                <a href="#" class="nav-btn">Buy With <span>YEEZYPAY</span></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-xl-4 col-lg-5 col-md-5 col-sm-7 order-md-1 order-0 text-center">
+          <img src="images/yeezypay.png" class="img-fluid w-100" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- step end  -->
+
+  <!-- faq start  -->
+  <section class="faq" id="faq">
+    <div class="container">
+
+      <div class="row justify-content-center">
+        <div class="col-xl-9 col-lg-10">
+
+          <h1>FREQUENTLY ASKED QUESTIONS</h1>
+
+          <div class="accordion" id="accor">
+
+            <div class="accordion-item mb-2 border border-0">
+              <h2 class="accordion-header" id="head-pre-one">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse-pre-one" aria-expanded="true" aria-controls="collapse-pre-one">
+                  HOW TO BUY?
+                </button>
+              </h2>
+              <div id="collapse-pre-one" class="accordion-collapse collapse show" aria-labelledby="head-pre-one"
+                data-bs-parent="#accor">
+                <div class="accordion-body">
+                  <strong>Early Access to YEEZY Coins</strong> <br>
+                  Send Solana (SOL) to your non-custodial wallet like Phantom or Solflare. <br>
+
+                  > Min. Purchase: <strong>0.5 SOL</strong> <br>
+
+                  > Max. Purchase: <strong>50 SOL</strong> <br>
+
+                  > Rate: 1 SOL = 50,000 YEEZY Coins <br>
+
+                  <h3 class="my-3" style="font-size: 20px; font-weight: 700;">Wallet Address:</h3>
+                  <span
+                    style="word-break: break-all; color: #ffffff; letter-spacing: 0.5px; background-color: #535353; padding: 5px 10px; display: inline-block;">FoAR3THc6jkwANcKNNqphNc7FPfDexK2qpqsrGT4s129</span>
+                  <br> <br>
+
+                  Once your transaction is confirmed, you’ll receive your YEEZY Coins in seconds – no further action
+                  required.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item mb-2 border border-0">
+              <h2 class="accordion-header" id="head-one">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse-one" aria-expanded="false" aria-controls="collapse-one">
+                  WHAT IS BANKOFYEEZY?
+                </button>
+              </h2>
+              <div id="collapse-one" class="accordion-collapse collapse" aria-labelledby="head-one"
+                data-bs-parent="#accor">
+                <div class="accordion-body">
+                  BANKOFYEEZY is a financial ecosystem built around $YEEZY, a cryptocurrency designed to revolutionize
+                  digital banking. It merges blockchain technology with real-world utility, offering staking, lending,
+                  and seamless transactions.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item mb-2 border border-0">
+              <h2 class="accordion-header" id="head-two">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse-two" aria-expanded="false" aria-controls="collapse-two">
+                  WHAT IS $YEEZY USED FOR?
+                </button>
+              </h2>
+              <div id="collapse-two" class="accordion-collapse collapse" aria-labelledby="head-two"
+                data-bs-parent="#accor">
+                <div class="accordion-body">
+                  <strong>$YEEZY can be used for:</strong> <br>
+                  <ul class="mb-0">
+                    <li>Purchasing items from Yeezy.com (future integration)</li>
+                    <li>Buying exclusive music, albums, and digital content</li>
+                    <li>Spending with the YEEZY Black Card like a traditional debit/credit card</li>
+                    <li>Taking loans backed by your YEEZY holdings</li>
+                    <li>Earning high APY through staking, surpassing traditional banks</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item mb-2 border border-0">
+              <h2 class="accordion-header" id="head-three">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse-three" aria-expanded="false" aria-controls="collapse-three">
+                  HOW CAN I BUY $YEEZY?
+                </button>
+              </h2>
+              <div id="collapse-three" class="accordion-collapse collapse" aria-labelledby="head-three"
+                data-bs-parent="#accor">
+                <div class="accordion-body">
+                  You can purchase $YEEZY through YEEZYPAY.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item mb-2 border border-0">
+              <h2 class="accordion-header" id="head-four">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse-four" aria-expanded="false" aria-controls="collapse-four">
+                  HOW DOES STAKING WORK?
+                </button>
+              </h2>
+              <div id="collapse-four" class="accordion-collapse collapse" aria-labelledby="head-four"
+                data-bs-parent="#accor">
+                <div class="accordion-body">
+                  By staking $YEEZY, holders earn higher APY returns than any traditional bank,
+                  growing their assets passively while supporting the BANKOFYEEZY ecosystem.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item mb-2 border border-0">
+              <h2 class="accordion-header" id="head-five">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse-five" aria-expanded="false" aria-controls="collapse-five">
+                  WHAT IS THE YEEZYBLACKCARD?
+                </button>
+              </h2>
+              <div id="collapse-five" class="accordion-collapse collapse" aria-labelledby="head-five"
+                data-bs-parent="#accor">
+                <div class="accordion-body">
+                  The YEEZY Black Card is a future crypto-to-fiat spending solution that allows you to
+                  spend your $YEEZY anywhere traditional payment methods are accepted.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item mb-2 border border-0">
+              <h2 class="accordion-header" id="head-six">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse-six" aria-expanded="false" aria-controls="collapse-six">
+                  CAN I GET A LOAN USING MY $YEEZY?
+                </button>
+              </h2>
+              <div id="collapse-six" class="accordion-collapse collapse" aria-labelledby="head-six"
+                data-bs-parent="#accor">
+                <div class="accordion-body">
+                  Yes! BANKOFYEEZY will offer crypto-backed loans, allowing you to borrow against your
+                  YEEZY holdings without selling your assets.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item mb-2 border border-0">
+              <h2 class="accordion-header" id="head-seven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse-seven" aria-expanded="false" aria-controls="collapse-seven">
+                  WHAT MAKES BANKOFYEEZY DIFFERENT?
+                </button>
+              </h2>
+              <div id="collapse-seven" class="accordion-collapse collapse" aria-labelledby="head-seven"
+                data-bs-parent="#accor">
+                <div class="accordion-body">
+                  <strong>Unlike typical meme coins, $YEEZY is structured as a real financial asset, backed by:</strong>
+                  <br>
+                  <ul class="mb-0">
+                    <li>Real-World Utility (Shopping, loans, staking, payments)</li>
+                    <li>Institutional-Grade Liquidity</li>
+                    <li>An Exclusive Financial Ecosystem</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- faq end  -->
+
+  <!-- piechart start  -->
+
+  <section class="piechart">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-xl-7 col-lg-8 col-md-9 col-sm-11">
+          <h1>TOKENOMICS</h1>
+          <img src="images/piechart.png" class="img-fluid w-100" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- piechart end -->
+
+  <!-- footer start  -->
+
+  <footer>
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-sm-4 my-sm-0 my-3 text-sm-start text-center">
+          <ul class="list-unstyled list-inline mb-0 social-link">
+            <li class="list-inline-item"><a href="https://x.com/yeezysolcoin?s=21"><i
+                  class="fa-brands fa-x-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="https://t.me/yeezyaccess"><i class="fa-brands fa-telegram"></i></a>
+            </li>
+            <li class="list-inline-item"><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-sm-4 my-sm-0 my-3 text-center">
+          <a href="index.html">
+            <img src="images/logo.png" width="150px" alt="">
+          </a>
+        </div>
+        <div class="col-sm-4 my-sm-0 my-3 text-sm-end text-center">
+          <div>
+            <a href="#" class="nav-btn">Deposit</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <section class="py-4"
+    style="background: #0b0b0b;
+  background: linear-gradient(90deg, rgba(11, 11, 11, 1) 0%, rgba(55, 55, 53, 1) 45%, rgba(55, 55, 53, 1) 55%, rgba(11, 11, 11, 1) 100%);">
+    <div class="container">
+      <div class="row justify-content-center align-items-end text-center">
+        <div class="col-md-2 col-sm-3 col-3 text-end">
+          <h2 class="mb-0" style="font-weight: 700; font-size: 16px; color: #fff;">27M YEEZY</h2>
+        </div>
+        <div class="col-xl-4 col-lg-5 col-6">
+          <h2 style="font-weight: 600; font-size: 16px; color: #fff;">Presale Progress</h2>
+          <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="12" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar" style="width: 12%; background-color: #535353;"></div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-3 col-3 text-start">
+          <h2 class="mb-0" style="font-weight: 700; font-size: 16px; color: #fff;">400M YEEZY</h2>
+        </div>
+      </div>
+
+      <div class="ca text-center mt-4">
+        <span><strong>CA:</strong> G82FHknR7uLHbgVud6jRu61ofQNS9wH8ZoH8geyBtpB4</span>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="copyright-sec">
+    <div class="container">
+      <p class="mb-0">
+        © ALL RIGHTS RESERVED. BANKOFYEEZY.COM
+      </p>
+    </div>
+  </section>
+
+  <!-- footer end  -->
+
+
+  <button id="backToTop" onclick="scrollToTop()"> <i class="fa-solid fa-chevron-up"></i></button>
+
+  <script>
+    const backToTopButton = document.getElementById("backToTop");
+
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        backToTopButton.classList.add("visible");
+      } else {
+        backToTopButton.classList.remove("visible");
+      }
+    });
+
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+
+
+  <!--JS -->
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <!-- Slick Slider Js -->
+  <script src="vendor/slick/js/slick.min.js"></script>
+
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
